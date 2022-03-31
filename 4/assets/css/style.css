@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --tit : 'Titillium Web', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    font: 600 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+padding: 30px 80px;
+border: none;
+border-radius: 4px;
+}
+
+
+
+
+/* header css start */
+
+
+header{
+    background-color: #87509c;
+}
+
+
+header nav ul{
+    float: right;
+    padding-top: 5px;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    font: 400 16px var(--tit);
+line-height: 18px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 25px;
+padding: 10px 15px;
+
+}
+
+header nav{
+    padding-top: 55px;
+}
+
+
+header nav .active, header nav ul li a:hover{
+    background-color: #643a79;
+    border-radius: 4px;
+
+}
+
+.header-body h1{
+    font: bold 42px var(--tit);
+line-height: 49px;
+color: #f7f3ea;
+text-align: center;
+margin-top: 150px;
+}
+
+.header-body{
+padding-bottom: 145px;
+}
+
+.header-body button{
+    background-color: #eb7d4b;
+    margin-top: 60px;
+    border-bottom: 4px solid #c86a40;
+
+}
+
+
+/* servis css start */
+
+#servis{
+    background-color: #17c2a4;
+}
+
+#servis h1{
+    font: 700 40px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+padding-top: 120px;
+}
+
+#servis hr{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 87px;
+height: 4px;
+background-color: #14a58c;
+border: none;
+}
+
+#servis p{
+    display: block;
+    margin: auto;
+    width: 600px;
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/* sekil css star*/
+
+.sekil div{
+    display: inline-block;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+
+.sekil p{
+    font:300 16px var(--tit) ;
+    width: 204px !important;
+    height: 192px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.sekil h2{
+    font: 700 24px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+/* team css start*/
+
+#team{
+    background-color: #e7f1f8;
+}
+#team h1{
+    font: 700 41px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 120px;
+}
+#team hr{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    border: none;
+}
+#team p{
+    display: block;
+    margin: auto;
+    width: 600px;
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*photo css start*/
+
+.photo div{
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+
+   
+}
+.photo img{
+    border-radius: 100px;
+}
+.photo p{
+    font:300 16px var(--tit) ;
+    width: 204px !important;
+    height: 192px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+.photo h2{
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #27283d;
+    font: 700 24px var(--tit);
+    margin-top: 40px;
+}
+.photo h3{
+    font: 400 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #30bae7;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*skill css start*/
+
+#skill{
+    background-color: #ffffff;
+}
+#skill h1{
+    font: 700 40px var(--tit);  
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #3c4761;
+    text-align: center;
+    padding-top: 120px;
+}
+#skill hr{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    border: none;
+}
+#skill p{
+    margin: auto ;
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3c4761;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#percent div{
+    display: inline-block;
+    margin-left: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 16px var(--tit);
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #3c4761;
+    padding-bottom: 120px;
+}
+#percent h2{
+    font-size: 24px;
+letter-spacing: 0px;
+line-height: 18px;
+color: #3c4761;
+font: 700 var(--tit);
+margin-top: 30px;
+}
+
+/* portfolio css start*/
+
+#portfolio{
+    background-color: #ffdd99;
+}
+#portfolio h1{
+    font: 700 40px var(--tit);
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #393939;
+    text-align: center;
+    padding-top: 120px;
+}
+#portfolio hr{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 87px;
+    height: 4px;
+    background-color: #e5c37f;
+    border: none;
+}
+#portfolio h2{
+    font: 400 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #393939;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#portfolio nav ul{
+    margin: auto;
+    
+}
+#portfolio nav ul li{
+    display: inline;
+    
+}
+#portfolio nav{
+    margin-top: 40px;
+    margin: auto 360px auto 360px;
+   
+}
+#portfolio nav .move, ul li a:hover{
+border-radius: 4px;
+background-color: #ffffff;
+}
+#portfolio nav ul li{
+    display: inline;
+    
+}
+#portfolio nav ul li a{
+    font: 400 16px var(--tit);
+line-height: 18px;
+ color: #393939;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 25px;
+padding: 10px 15px;
+margin-top: 40px;
+}
+
+
+/* comp css start*/
+#comp div{
+  margin-top: 64px;
+  display: inline-block;
+}
+#comp h2{
+    margin-top: 35px;
+}
+#comp button{
+    width: 293px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: #17c2a4;
+    border: none;
+    margin: auto 400px;
+    display: block;
+    margin-bottom: 110px;
+}
+#comp button p{
+    font: 600 18px var(--tit);
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #ffffff;  
+}
+
+/*about css start*/
+#about {
+    background-color: #d74680;
+}
+#about hr{
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 87px;
+    height: 4px;
+    background-color: #bdd1df;
+    border: none;
+}
+#about h1{
+    font: 700 40px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+padding-top: 120px;
+}
+#about p{
+    font-size: 18px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font: 400 var(--tit);
+text-align: center;
+}
+.parent div{
+    flex-direction: row-reverse;
+}
+.circle{
+    
+    margin-top: 85px;
+    width: 96px;
+height: 96px;
+border-radius: 48px;
+background-color: #787878;
+}
+.circle2{
+    
+    margin-left: 490px;
+    margin-top: 85px;
+    width: 96px;
+height: 96px;
+border-radius: 48px;
+background-color: #787878;
+}
+
+.text{
+    margin-left: 150px;
+    width: 297px;
+height: 192px;
+font: italic 400 21px var(--tit);
+letter-spacing: 0px;
+line-height: 31px;
+color: #ffffff;
+}
+
+.circle3{
+    margin-top: 85px;
+    width: 96px;
+height: 96px;
+border-radius: 48px;
+background-color: #787878;
+}
+.circle4{
+    margin-left: 490px;
+    margin-top: 85px;
+    width: 96px;
+height: 96px;
+border-radius: 48px;
+background-color: #787878;
+}
+
+/*footer css start*/
+
+footer{
+    background-color: #3c5499;
+}
+footer h1{
+    padding-top: 120px;
+    font: 700 40px var(--tit);
+letter-spacing: 4px;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+}
+footer hr{
+    margin: 20px auto 20px auto;
+    width: 87px;
+height: 4px;
+background-color: #273a71;
+border: none;
+}
+footer p{
+    margin: auto;
+    font: 400 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+text-align: center;
+}
+footer #inp1{
+    margin-top: 75px;
+  margin-left: 120px;
+  width: 414px;
+height: 56px;
+border-radius: 4px;
+background-color: #273a71;
+border: none;
+outline: none;
+color: #fff;
+}
+
+footer #inp2{
+    margin-top: 75px;
+  margin-left: 40px;
+  width: 414px;
+height: 56px;
+border-radius: 4px;
+background-color: #273a71;
+border: none;
+outline: none;
+color: #fff;
+
+}
+footer textarea{
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 860px;
+height: 200px;
+border-radius: 4px;
+background-color: #273a71;
+border: none;
+outline: none;
+}
+footer ::placeholder{
+    padding-left: 10px;
+}
+footer button{
+    margin:  auto 405px auto 405px;
+    margin-top: 60px;
+    width: 293px;
+height: 70px;
+border-radius: 4px;
+background-color: #30bae7;
+border: none;
+margin-bottom: 115px;
+}
+footer button p{
+    font: 600 18px var(--tit);
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+}
+
+#last{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #344b8e;
+    text-align: center;
+}
+#last  ul{
+    margin: auto;
+    
+}
+#last  ul li{
+    display: inline;
+
+}
+
+
+#last  ul li a{
+    font: 600 24px var(--tit);
+    margin-right: 60px;
+letter-spacing: 0px;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+text-decoration: none;  
+  background-color: transparent !important;
+
+}
+#last .active{
+    color: #30bae7;
+}
+.photo #icon1 a{
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+background-color: #bdd1df;
+display: inline-block;
+position: relative;
+text-align: center;
+margin-bottom: 130px;
+}
+.photo #icon1 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+.photo #icon2 a{
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+background-color: #bdd1df;
+display: inline-block;
+position: relative;
+text-align: center;
+margin-bottom: 130px;
+}
+.photo #icon2 i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
